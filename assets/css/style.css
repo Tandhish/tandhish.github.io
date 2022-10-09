@@ -1,3 +1,7 @@
+/* * {
+  border: 1px solid red;
+} */
+
 body {
   background: #fff;
   color: #666666;
@@ -86,10 +90,12 @@ h6 {
   transition: all 0.5s;
 }
 
+
+
 #header #logo h1 {
   font-size: 36px;
   padding: 0;
-  margin: 0;
+  margin: -50%;
   display: inline-block;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -362,7 +368,7 @@ h6 {
 }
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 150vh;  
   background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)), url("../img/hero-bg.jpg") center top no-repeat;
   background-size: cover;
   position: relative;
