@@ -44,17 +44,20 @@
   gtag('config', 'G-LCBNBWK9BZ');
 </script>
 
+
  
 </head>
 
 <body>
+
+  
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex justify-content-between align-items-center">
 
       <div id="logo">
-        <h1><div href="index.html" style="height: 75%; width: 75%;"><a href="#hero"><img src="/assets/img/TLOGO_WITH_TXT-removebg-preview.png" style="max-width: 50%;"alt=""/></a></div></h1>
+        <h2><div href="index.html" style="height: 75%; width: 75%;"><a href="#hero"><img src="/assets/img/TLOGO_WITH_TXT-removebg-preview.png" style="max-width: 50%;"alt=""/></a></div></h2>
      
       </div>
 
@@ -139,7 +142,7 @@
                   <ul>
                     <li>Static Webpages</li>
                     <li>Dynamic Webpages</li>
-                  </ul>
+                  </ul> 
                 </h4>
                 </div>
             </div>
@@ -201,12 +204,12 @@
               <div class="pic"><img src="assets/img/vinit.jpeg" style="max-height: 100%;" alt=""></div>
               <h4>Vinit Iyer</h4>
               <span>Database Management Expert</span>
-              <div class="social">
+              <!-- <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
                 <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -215,12 +218,12 @@
               <div class="pic"><img src="assets/img/nidhi.jpg" style="max-height: 100%;" alt=""></div>
               <h4>Nidhi Bansal</h4>
               <span>Digital Marketing Manager</span>
-              <div class="social">
+              <!-- <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
                 <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -229,12 +232,12 @@
               <div class="pic"><img src="assets/img/ritank.jpeg" style="max-height: 100%;" alt=""></div>
               <h4>Ritank Saxena</h4>
               <span>Lead Software Engineer</span>
-              <div class="social">
+              <!-- <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
                 <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -382,7 +385,7 @@
 
           <div class="col-lg-5 col-md-8">
             <div class="form">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <!-- <form action="mailto:me@me.com" method="post" role="form" class="php-email-form">
                 <div class="row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
@@ -401,9 +404,8 @@
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
-              </form>
+                </div> -->
+                <a href="mailto:me@me.com" ><div class="text-center"><button type="submit" title="Send Message" id="btn" >Send Message</button></div></a>
             </div>
           </div>
 
@@ -446,6 +448,18 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    function sendMail() {
+      var link = "mailto:me@example.com"
+               + "?cc=myCCaddress@example.com"
+               + "&subject=" + encodeURIComponent("This is my subject")
+               + "&body=" + encodeURIComponent(document.getElementById('myText').value)
+      ;
+      
+      window.location.href = link;
+  }
+  </script>
 
  
 

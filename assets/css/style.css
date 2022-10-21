@@ -1335,6 +1335,19 @@ section {
   }
 }
 
+
+
+
+#btn {
+  background: linear-gradient(45deg, #0656c6cc , #1dc8cdcc);
+  border: 0;
+  margin-left: 50%;
+  margin-top: 20%;
+  border-radius: 20px;
+  padding: 8px 30px;
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
