@@ -122,6 +122,7 @@ h6 {
   padding: 0;
 }
 
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -223,6 +224,7 @@ h6 {
 .navbar .dropdown ul li:hover>a {
   color: #1dc8cd;
 }
+
 
 .navbar .dropdown:hover>ul {
   opacity: 1;
