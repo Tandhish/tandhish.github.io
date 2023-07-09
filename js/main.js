@@ -40,6 +40,11 @@
         navigationText: false
     });
 
+	$("#owl-sliderr").owlCarousel({
+        navigation: true,
+        pagination: true,
+        navigationText: false
+    });
 
 	/*----------------------------------------------------- */
 	/* Alert Boxes
